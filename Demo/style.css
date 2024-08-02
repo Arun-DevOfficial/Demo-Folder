@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+.circle {
+  border: 3px solid black;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
+
+.event {
+  display: flex;
+  /* border: 3px solid black; */
+  width: 250px;
+  align-items: center;
+  /* padding: 15px; */
+  gap: 25px;
+}
+
+.ParentEvent {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+}
+.parentDiv{
+    width: 300px;
+    /* height: 300px; */
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+.circle-border{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.content{
+    flex-shrink: 0;
+}
